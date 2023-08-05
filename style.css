@@ -142,7 +142,9 @@
   border-radius:20px;
   display: flex;
   flex-direction: column;
-  overflow:hidden
+  overflow:hidden;
+  box-shadow: 0px 10px 50px 5px #00000005;
+
 }
 .card-image {
   flex: 3;
@@ -170,6 +172,8 @@
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0px;
+  box-shadow: 0px 10px 50px 5px #00000005;
+
 }
 .rupee-btn {
   width: 80px;
@@ -214,16 +218,58 @@
 .latest-collection2{
     width:95vw;
     height:350px;
-    background-color: antiquewhite;
+    
     
 }
-
+.lt-block1{
+  flex-wrap:wrap;
+}
 .lt-b-1{
     width:285px;
-    height:320px;
+    height:300px;
     display:flex;
     flex-direction:column;
     align-items: center; 
-    background-color: #ff5e3ag;
+    border-radius:15px;
+    box-shadow: 0px 10px 50px 5px #00000005;
+    border:1px solid #90909040;
+    overflow: hidden;
+    
+    
 
+}
+.lt-desc p{
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+
+
+}
+.lt-desc button
+{
+ width:90px;
+height: 31px;
+border-radius: 10px;
+font-size: 11px;
+font-weight: 700;
+line-height: 16px;
+background-color: #FF5E3A;
+
+}
+.lt-image{
+  background-color: #90909040;
+  width:100%;
+  overflow: hidden;
+}
+.desc-desc-1{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  
+}
+
+.lt-image img{
+  width:198px;
+  height:184px;
 }
